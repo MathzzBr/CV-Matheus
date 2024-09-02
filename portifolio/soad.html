@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>system of a down</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        h1{
+            font-size: 40px;
+            color: rgb(255, 0, 0);
+            text-align: center;
+        }
+        h2{
+            color: rgb(255, 0, 0);
+            margin-left: 50px;
+        }
+        p{
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: justify;
+        }
+        #pic1 {
+            display: block;
+            margin: 0 auto;
+        }
+        #musicImage {
+            margin-right: 50px;
+            float: right;
+            cursor: pointer;
+ 
+        }
+    </style>
+</head>
+<body>
+    <h1>System of a Down: Uma Revolução Musical com Raízes Armênias</h1>
+    <img id="pic1" src="imagens/soad.png" alt="Integrantes da banda Sytem Of A Down" title="Integrantes da banda Sytem Of A Down" width="500px">
+    <p>System of a Down (SOAD) é uma das bandas mais icônicas do rock e metal contemporâneo, reconhecida por sua abordagem única à música, que mistura heavy metal, rock alternativo, punk, e elementos de música tradicional armênia. Formada em 1994 em Glendale, Califórnia, a banda é composta por Serj Tankian (vocal e teclado), Daron Malakian (guitarra e vocal), Shavo Odadjian (baixo) e John Dolmayan (bateria). Todos os membros têm ascendência armênia, e isso desempenha um papel central em sua identidade artística e política.</p>
+    <br>
+    <h2>Origem e Ascensão</h2>
+    <p>System of a Down surgiu em uma época em que o nu-metal começava a ganhar tração, mas rapidamente se destacou de outras bandas da cena por sua fusão de estilos e letras politicamente carregadas. Seu álbum de estreia, autointitulado, lançado em 1998, chamou atenção por suas letras confrontadoras e sons pesados, com faixas como "Suite-Pee" e "Sugar". A combinação de riffs agressivos de guitarra e a voz teatral de Tankian criou uma sonoridade única, que não se parecia com nada na época.</p>
+    <br>
+    <h2>Toxicity e Reconhecimento Internacional</h2>
+    <p>O verdadeiro ponto de virada para a banda veio com o lançamento de Toxicity em 2001, um álbum que não apenas consolidou seu status como uma das maiores bandas de metal da época, mas também marcou sua influência duradoura no cenário musical. Toxicity estreou em primeiro lugar na parada Billboard 200, e músicas como "Chop Suey!", "Toxicity" e "Aerials" tornaram-se hinos não apenas entre os fãs de metal, mas também em um público mais amplo. "Chop Suey!" recebeu uma indicação ao Grammy e é uma das músicas mais emblemáticas do início dos anos 2000.</p>
+    <br>
+    <h2>Temas Políticos e Sociais</h2>
+    <p>Um dos aspectos mais notáveis de System of a Down é seu compromisso com causas políticas e sociais. Muitos de seus temas abordam questões como genocídio, guerra, corrupção e injustiça social. O genocídio armênio, em particular, é uma causa que a banda defende com vigor, aproveitando sua plataforma para aumentar a conscientização sobre o massacre de armênios pelo Império Otomano durante a Primeira Guerra Mundial, que ainda é um tema sensível e negado por alguns governos. Músicas como "P.L.U.C.K." (Political Lying Unholy Cowardly Killers) e "Holy Mountains" abordam diretamente essa tragédia histórica.</p>
+    <br>
+    <h2>Hiato e Retorno</h2>
+    <p>Após o lançamento de Hypnotize em 2005, a banda entrou em um hiato indefinido, o que levou os membros a perseguirem projetos solo. Serj Tankian lançou vários álbuns solo, explorando uma ampla gama de estilos musicais, enquanto Daron Malakian formou a banda Scars on Broadway. John Dolmayan também se envolveu em projetos paralelos, enquanto Shavo Odadjian explorou a produção musical e trabalhou com outras bandas. O retorno da banda aos palcos em 2010 foi celebrado por fãs em todo o mundo, mas até o momento, nenhum novo álbum de estúdio foi lançado. Apesar disso, a banda lançou duas músicas em 2020, "Protect the Land" e "Genocidal Humanoidz", que abordam a guerra entre Armênia e Azerbaijão, novamente sublinhando seu compromisso com questões políticas relevantes.</p>
+    <br>
+    <h2>Legado e Influência</h2>
+    <p>System of a Down continua a ser uma das bandas mais influentes no cenário musical global, não apenas pelo seu som inovador, mas também por seu ativismo e compromisso com a justiça social. Seu estilo único, que combina a intensidade do metal com a sensibilidade melódica e tradições culturais, criou uma marca inconfundível que ressoa com fãs de diferentes gerações e origens. Seu legado é cimentado não apenas pelas músicas que criaram, mas também pelo impacto que tiveram ao levantar questões que muitos evitam. A banda permanece como um símbolo de resistência e expressão artística em um mundo que muitas vezes tenta silenciar vozes dissonantes.</p>
+    <br>
+    <br>
+    <br>
+
+    <img id="musicImage" src="imagens/album-soad.png" alt="Clique Aqui" title="Clique Aqui" width="200px">
+    <p>Fontes Consultadas <br>
+        Rolling Stone: "System of a Down’s Serj Tankian on New Solo Music, Politics, and a Big ’Toxicity’ Anniversary" (Rolling Stone). <br>
+        Loudwire: "System of a Down’s ‘Toxicity’: The Story Behind the Album" (Loudwire). <br>
+        Billboard: "System of a Down on New Music, the Armenian Genocide, and Their Fans" (Billboard). <br>
+        Kerrang!: "The Ultimate Guide to System of a Down’s Discography" (Kerrang!). <br>
+        Metal Injection: "A Deep Dive into System of a Down’s Political Activism" (Metal Injection).</p>
+
+    <audio id="music" src="musica/toxicity.mp3"></audio>
+    <script>
+        document.getElementById("musicImage").addEventListener("click", function() {
+            var audio = document.getElementById("music");
+        
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        });
+    </script>
+</body>
+</html>
